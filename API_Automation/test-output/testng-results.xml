@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-18T20:20:59 IST" name="Default suite" finished-at="2024-12-18T20:21:05 IST" duration-ms="6014">
+    <groups>
+    </groups>
+    <test started-at="2024-12-18T20:20:59 IST" name="Default test" finished-at="2024-12-18T20:21:05 IST" duration-ms="6014">
+      <class name="APITesting.APItest">
+        <test-method signature="testgetrequest(java.lang.String)[pri:0, instance:APITesting.APItest@1bb5a082]" started-at="2024-12-18T20:21:00 IST" name="testgetrequest" data-provider="getdata" finished-at="2024-12-18T20:21:03 IST" duration-ms="3133" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[germany]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testgetrequest -->
+        <test-method signature="testgetrequest(java.lang.String)[pri:0, instance:APITesting.APItest@1bb5a082]" started-at="2024-12-18T20:21:03 IST" name="testgetrequest" data-provider="getdata" finished-at="2024-12-18T20:21:04 IST" duration-ms="1528" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[alemania]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testgetrequest -->
+        <test-method signature="testgetrequest(java.lang.String)[pri:0, instance:APITesting.APItest@1bb5a082]" started-at="2024-12-18T20:21:04 IST" name="testgetrequest" data-provider="getdata" finished-at="2024-12-18T20:21:05 IST" duration-ms="649" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Saksama]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testgetrequest -->
+      </class> <!-- APITesting.APItest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
